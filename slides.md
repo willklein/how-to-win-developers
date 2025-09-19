@@ -345,6 +345,17 @@ layout: image
 image: map.jpg
 ---
 
+# Documentation is a feature
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 54px;
+    line-height: 54px;
+    width: 670px;
+  }
+</style>
+
 <!--
 It doesn't matter how good your solution is if you don't give developers a clear path to implement.
 
@@ -460,6 +471,10 @@ remove friction, making your path the easy one. especially with onboarding if yo
 
 <!--
 I have so much more to share, so if you're curious to hear more, I'm starting a newsletter and you can signup here
+
+between it's better developer onboarding, starting a guild to share best practices internally,
+
+and public speaking itself, I'm looking forward to publishing more about this topic for you
 -->
 
 ---
@@ -522,5 +537,9 @@ image: thank-you.jpg
 </style>
 
 <!--
-You can find me at willklein.co, with links to all my socials there. Thanks everyone!
+You can find me at willklein.co, with links to all my socials there.
+
+Please don't be shy, let's connect and send me a DM anytime about anything I can help you with.
+
+Thanks everyone!
 -->
