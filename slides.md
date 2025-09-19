@@ -3,7 +3,7 @@
 theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: paper.jpg
+background: hello.jpg
 # some information about your slides (markdown enabled)
 title: Welcome to Slidev
 info: |
@@ -28,9 +28,17 @@ seoMeta:
   # ogImage: https://cover.sli.dev
 ---
 
+---
+layout: image
+image: hello.jpg
+---
+
 <!--
-Whether you maintain a library or work on application development, if you write software,
-I'm here today to help you reach other developers and expand the impact of your work.
+Before we begin, please humor me
+
+when i greet you in a moment, please, everyone, say hello back
+
+Hello!
 -->
 
 ---
@@ -59,8 +67,12 @@ image: paper.jpg
 # Will Klein
 
 <!--
-Whether you maintain a library or work on application development, if you write software,
-I'm here today to help you reach other developers and expand the impact of your work.
+Today I'd like to share how to win developers and influence adoption.
+
+Whether you maintain a library or develop a application, if you write software,
+I'm here to help you reach other developers more effectively.
+
+Writing code is the easy part. Getting other developers interested and engaged is much harder.
 -->
 
 ---
@@ -197,7 +209,7 @@ layout: image
 image: mute.jpg
 ---
 
-# @everyone == @nnoy everyone
+# @everyone will @nnoy everyone
 
 <style>
   h1 {
@@ -241,8 +253,20 @@ I've seen lots of very fact-oriented announcements, and those work when the audi
 -->
 
 ---
+layout: image
+image: demos.avif
+---
 
-![](./storybook.png)
+# Use a Hook
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 54px;
+    line-height: 54px;
+    width: 290px;
+  }
+</style>
 
 <!--
 If you ever study content, writing, or marketing, you'll learn about what a hook is.
@@ -255,6 +279,26 @@ There's a lot to writing a good hook, so today I'll just share a quick example.
 
 Here's one from Storybook...
 
+When I was on a design system team, I used this tactic all the time to spark conversation and get people to join our office hours. Ask a question, it's one of the simplest forms of a hook.
+
+And if you have a feature to share, instead of speaking from your perspective about your API, speak in terms of the problem it solves.
+-->
+
+---
+layout: image
+image: storybook-full.png
+---
+
+<!--
+Here's one from Storybook...
+-->
+
+---
+layout: image
+image: question.jpg
+---
+
+<!--
 When I was on a design system team, I used this tactic all the time to spark conversation and get people to join our office hours. Ask a question, it's one of the simplest forms of a hook.
 
 And if you have a feature to share, instead of speaking from your perspective about your API, speak in terms of the problem it solves.
