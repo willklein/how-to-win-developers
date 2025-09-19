@@ -1,23 +1,23 @@
 ---
 # You can also start simply with 'default'
-theme: seriph
+theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: paper.jpg
 # some information about your slides (markdown enabled)
 title: Welcome to Slidev
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## How to Win Developers and Influence Adoption
+  A talk by Will Klein to help developers communicate the value of their work
 
-  Learn more at [Sli.dev](https://sli.dev)
+  Learn more at [howtowin.dev](https://wwww.howtowin.dev)
 # apply unocss classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
+transition: none
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 # open graph
@@ -28,640 +28,381 @@ seoMeta:
   # ogImage: https://cover.sli.dev
 ---
 
-# How to Win Developers and Influence Adoption
-
-Will Klein
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
-
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+Whether you maintain a library or work on application development, if you write software,
+I'm here today to help you reach other developers and expand the impact of your work.
 -->
 
 ---
+layout: image
+image: paper.jpg
+---
 
-## transition: fade-out
+<br>
 
-# What is Slidev?
+# How to Win Developers
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+# and Influence Adoption
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-  <br>
-  <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+# Will Klein
 
 <!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
+Whether you maintain a library or work on application development, if you write software,
+I'm here today to help you reach other developers and expand the impact of your work.
 -->
 
+---
+layout: image
+image: lights.jpg
+---
+
+<!--
+Over my career I've been able to guide library choices, testing strategy, software design, and elevate the adoption of my team's work among other developers.
+
+Even as a junior and mid level dev, I was able to make an impact that would normally come with a staff-level title.
+-->
+
+---
+layout: image
+image: dim.jpg
+---
+
+<!--
+But it wasn't always that way. Early on, I struggled to articulate my ideas and I was very UNsuccessful with steering our technical direction, even at the team level.
+
+I used to think, it was about having the best idea, articulating it clearly, and everyone would magically rally around it.
+-->
+
+---
+layout: image
+image: scales.jpg
+---
+
+<!--
+but there's really no best idea, there's always a tradeoff
+
+how well you articulate and communicate can only get you so far
+
+and the hardest thing of all turned out to be all the noise of async notifications, and creating a clear signal
+that others wanted to hear
+-->
+
+---
+layout: image
+image: point.jpg
+---
+
+<!--
+So how do we win developers, and influence adoption?
+
+today i have three lessons I've learned that I hope will serve you
+
+whether you maintain a library or an application, we all encounter this challenge. software development is HIGHLY collaborative and highly opinionated. to be effective beyond building features, these three lessons will greatly improve your reach and impact
+-->
+
+---
+layout: image
+image: point.jpg
+---
+
+# Build Trust
+
+# Deserve Attention
+
+# Remove Friction
+
 <style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
+  h1 {
+    background-color: #000;
+    font-size: 54px;
+    line-height: 54px;
+    width: 450px;
+  }
 </style>
 
 <!--
-Here is another comment.
+As developers, we're very skeptical, we need to be convinced beyond any doubt, that something is not just a good idea, but worth our time and attention. So what is the foundation of earning that attention?
 -->
 
 ---
-
-transition: slide-up
-level: 2
-
+layout: image
+image: help.jpg
 ---
 
-# Navigation
+# Be helpful
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                    |                             |
-| -------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                | next animation or slide     |
-| <kbd>left</kbd> / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                      | previous slide              |
-| <kbd>down</kbd>                                    | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-
-layout: two-cols
-layoutClass: gap-16
-
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
-
----
-
-layout: image-right
-image: https://cover.sli.dev
-
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts [filename-example.ts] {all|4|6|6-7|9|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-import { computed, ref } from "vue";
-
-const count = ref(0);
-const doubled = computed(() => count.value * 2);
-
-doubled.value = 2;
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="342" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
 <style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
+  h1 {
+    background-color: #000;
+    font-size: 54px;
+    line-height: 54px;
+    width: 260px;
+  }
 </style>
 
 <!--
-Notes can also sync with clicks
+Be helpful.
 
-[click] This will be highlighted after the first click
+About everything.
 
-[click] Highlighted with `count = ref(0)`
+In terms of having an impact within an organization, this is the single biggest takeaway I can offer you.
 
-[click:3] Last click (skip two clicks)
+I've worked on some very strong teams and early in my career, I was the most junior developer, learning from some amazing senior devs. I couldn't code as fast or as well as everyone else, at least on my own, so I looked for other ways I could contribute. Our team was well known so we'd get a lot of questions, so I jumped on those questions whenever I felt I could be helpful. After a few months, I realized that folks on other teams were coming to me directly. I didn't just build trust, I built a reputation.
+
+I've seen this lesson repeated in other ways too.
+
+I worked on a design system team that wasn't very well known across the company at first. There were always lots of questions about React, TypeScript, and other related areas, that weren't the design system, but within our area of expertise. Our team was full of experts, and we helped out at every opportunity. It didn't matter how busy we were, we took it upon ourselves to help other teams be successful.
+
+Over time, this elevated the profile of our team, and it got people curious what we were up to. And when we applied the next lesson, it caught on that much more.
 -->
 
 ---
-
-## level: 2
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: "John Doe",
-  books: [
-    "Vue 2 - Advanced Guide",
-    "Vue 3 - Basic Guide",
-    "Vue 4 - The Mystery",
-  ],
-});
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: "John Doe",
-        books: [
-          "Vue 2 - Advanced Guide",
-          "Vue 3 - Basic Guide",
-          "Vue 4 - The Mystery",
-        ],
-      },
-    };
-  },
-};
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: "John Doe",
-      books: [
-        "Vue 2 - Advanced Guide",
-        "Vue 3 - Basic Guide",
-        "Vue 4 - The Mystery",
-      ],
-    },
-  }),
-};
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: "John Doe",
-  books: [
-    "Vue 2 - Advanced Guide",
-    "Vue 3 - Basic Guide",
-    "Vue 4 - The Mystery",
-  ],
-};
-</script>
-```
-````
-
+layout: image
+image: attention.jpg
 ---
 
-# Components
+# Attention
 
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 54px;
+    line-height: 54px;
+    width: 260px;
+  }
+</style>
 
 <!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
+Attention is a precious resource.
 
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
+I've seen library releases come out and just list all the new features, which, make sense, but it comes from the perspective of the author.
+
+It turns out, that doesn't always work very well. As the reader, I don't know why this matters to me, without reading more. And I'm not going to read more, unless I have a reason to. The first few words tell me whether I should read the first sentence, and the first sentence tells me if I should read the first paragraph, and if that paragraph is too long, I skip the whole thing.
+-->
+
+---
+layout: image
+image: mute.jpg
+---
+
+# @everyone == @nnoy everyone
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 54px;
+    line-height: 54px;
+    width: 790px;
+  }
+</style>
+
+<!--
+@'ing everyone doesn't work either, it just annoys everyone. I have muted so many Slack and Discord channels because of this.
+
+So how do we acquire attention?
+-->
+
+---
+layout: image
+image: meet.jpg
+---
+
+# Meet developers where they are
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 54px;
+    line-height: 54px;
+    width: 800px;
+  }
+</style>
+
+<!--
+The best way I've heard it described, is "meeting people where they are."
+
+This can be applied in several ways.
+
+Fundamentally, it means thinking from the perspective of other developers and what they are trying to do.
+
+I've seen lots of very fact-oriented announcements, and those work when the audience is familiar with what you mention and knows how it will solve their problem. You need the facts, sure, but seen better reaction when I lead with something different.
 -->
 
 ---
 
-## class: px-20
+![](./storybook.png)
 
-# Themes
+<!--
+If you ever study content, writing, or marketing, you'll learn about what a hook is.
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+To get people to read the facts, or better, go deeper and actually digest your blog post or documentation,
 
-<div grid="~ cols-2 gap-2" m="t-2">
+you need to grab their attention.
 
-```yaml
----
-theme: default
----
-```
+There's a lot to writing a good hook, so today I'll just share a quick example.
 
-```yaml
----
-theme: seriph
----
-```
+Here's one from Storybook...
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
+When I was on a design system team, I used this tactic all the time to spark conversation and get people to join our office hours. Ask a question, it's one of the simplest forms of a hook.
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
+And if you have a feature to share, instead of speaking from your perspective about your API, speak in terms of the problem it solves.
+-->
 
 ---
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
+layout: image
+image: path.jpg
 ---
 
-# Motions
+<!--
+So you've built trust, earned the attention of developers, but how do we get them to take action?
 
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
+Good developers are famously called lazy developers. We will take the path of least resistance.
 
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
+There are two stages where difficulty is highest in adopting our work. Getting started, and keeping up with changes.
+-->
 
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
+---
+layout: image
+image: chakra.png
+---
 
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
+<!--
+It doesn't matter how good your solution is if you don't give developers a clear path to implement.
 
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
+Good documentation is a killer feature. When I evaluate technology, the docs are my number 1 criteria.
+
+It can be as simple as a README too, but define the steps to get started with your solution
+
+or how to adopt what you're proposing
+
+Here's a common but effective pattern from Chakra UI, where you spell out what to install,
+
+then what code changes come next. along the way, they explain a few things as well.
+-->
+
+---
+layout: image
+image: start.png
+---
+
+<!--
+Like Jack mentioned yesterday with TanStack Start,
+
+CLI tools can also really help with adoption and getting something working even faster
+-->
+
+---
+layout: image
+image: package.jpg
+---
+
+<!--
+One of the harder problems I've seen isn't adoption, but keeping up with changes,
+bumping dependencies and things like that.
+
+I've lost MONTHS of my professional life to bumping dependencies.
+
+this is where investing in upgrade guides can make a massive difference.
+
+which by the way, can also really help developers using AI to upgrade and adjust for breaking changes.
+-->
+
+---
+layout: image
+image: package.jpg
+---
+
+[Tanexample](https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-v5)
+
+<style>
+  a {
+    /* background-color: #000; */
+    font-size: 40px;
+    line-height: 40px;
+    /* width: 800px; */
+    right: 50px;
+    position: absolute;
   }
-}
-</script>
+</style>
 
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
+<!--
+Here's an example of both I'd like to share...
+-->
 
 ---
 
-# LaTeX
+# Be helpful
 
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
+# Earn attention
 
-<div h-3 />
+# Remove friction
 
-Inline $\sqrt{3x-1}+(1+x)^2$
+<!--
+Remember these three things to win developers and influence adoption
 
-Block
+be helpful at every opportunity.
 
-$$
-{1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
+earn attention, with hooks baited with value
 
-[Learn more](https://sli.dev/features/latex)
+remove friction, making your path the easiest one. especially with onboarding if you want adoption, and make it stupid simple to keep up with things as they change
+
+i promise you the reach of your team's work will grow and so will your influence on technical direction at your company
+-->
 
 ---
 
-# Diagrams
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
+---
+layout: image
+image: thank-you.jpg
+---
 
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
+## <logos-x /> @willklein\_
 
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
+## <logos-bluesky /> @willkle.in
 
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
+## <carbon-link /> howtowin.dev
 
-```plantuml {scale: 0.7}
-@startuml
+## <carbon-lightning /> toolspace.dev
 
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
+<style>
+  h1 {
+    /* background-color: #000; */
+    font-size: 64px;
+    line-height: 80px;
+    width: 300px;
   }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
+</style>
 
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
+<!--
+I want to quickly thank my team at North, who supported me to attend and speak here today.
 
-@enduml
-```
+Our team supports our payment APIs and developer experience,
 
-</div>
+and one thing I love about what we do is how much we care about being helpful.
 
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-
-foo: bar
-dragPos:
-square: 691,32,167,\_,-16
-
----
-dragPos:
-  square: 0,-2,0,0
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-
-src: ./pages/imported-slides.md
-hide: false
-
----
-
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from "vue";
-import { emptyArray } from "./external";
-
-const arr = ref(emptyArray(10));
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from "vue";
-import { emptyArray, sayHello } from "./external";
-
-sayHello();
-console.log(`vue ${version}`);
-console.log(
-  emptyArray<number>(10).reduce(
-    (fib) => [...fib, fib.at(-1)! + fib.at(-2)!],
-    [1, 1],
-  ),
-);
-```
-
----
-
-layout: center
-class: text-center
-
----
-
-# Learn More
-
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
-
-<PoweredBySlidev mt-10 />
+it's become exceedingly rare that you can ask for help and reach a real human easily,
+and that's something I love about how we operate.
+-->
