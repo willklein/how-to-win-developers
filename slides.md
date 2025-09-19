@@ -103,12 +103,14 @@ image: scales.jpg
 ---
 
 <!--
-but there's really no best idea, there's always a tradeoff
+but there's really no best idea, there's always tradeoffs, and often more than one good alternative
 
 how well you articulate and communicate can only get you so far
 
-and the hardest thing of all turned out to be all the noise of async notifications, and creating a clear signal
-that others wanted to hear
+the hardest thing of all is the noise of all our notifications, updates, and emails,
+
+to create a clear signal
+that others want to hear
 -->
 
 ---
@@ -120,8 +122,6 @@ image: point.jpg
 So how do we win developers, and influence adoption?
 
 today i have three lessons I've learned that I hope will serve you
-
-whether you maintain a library or an application, we all encounter this challenge. software development is HIGHLY collaborative and highly opinionated. to be effective beyond building features, these three lessons will greatly improve your reach and impact
 -->
 
 ---
@@ -145,7 +145,13 @@ image: point.jpg
 </style>
 
 <!--
-As developers, we're very skeptical, we need to be convinced beyond any doubt, that something is not just a good idea, but worth our time and attention. So what is the foundation of earning that attention?
+Build trust
+
+Deserve Attention
+
+Remove Friction
+
+As developers, we're very skeptical, we need to be convinced beyond any doubt, that something is not just a good idea, but worth our time and attention. Trust is the foundation, and the most important.
 -->
 
 ---
@@ -165,19 +171,42 @@ image: help.jpg
 </style>
 
 <!--
+To earn trust, it's actually quite simple.
+
 Be helpful.
 
-About everything.
+As much as you can, about anything you can.
 
-In terms of having an impact within an organization, this is the single biggest takeaway I can offer you.
+This is the single biggest takeaway I can offer you.
 
 I've worked on some very strong teams and early in my career, I was the most junior developer, learning from some amazing senior devs. I couldn't code as fast or as well as everyone else, at least on my own, so I looked for other ways I could contribute. Our team was well known so we'd get a lot of questions, so I jumped on those questions whenever I felt I could be helpful. After a few months, I realized that folks on other teams were coming to me directly. I didn't just build trust, I built a reputation.
+-->
 
+---
+layout: image
+image: up.jpg
+---
+
+# Be kind
+
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 54px;
+    line-height: 54px;
+    width: 190px;
+  }
+</style>
+
+<!--
 I've seen this lesson repeated in other ways too.
 
 I worked on a design system team that wasn't very well known across the company at first. There were always lots of questions about React, TypeScript, and other related areas, that weren't the design system, but within our area of expertise. Our team was full of experts, and we helped out at every opportunity. It didn't matter how busy we were, we took it upon ourselves to help other teams be successful.
 
 Over time, this elevated the profile of our team, and it got people curious what we were up to. And when we applied the next lesson, it caught on that much more.
+It also helps to be kind, and patient along the way.
+
+It helps others feel safe in asking for help, and it's infectious, shaping the culture of the community around your work.
 -->
 
 ---
@@ -192,7 +221,7 @@ image: attention.jpg
     background-color: #000;
     font-size: 54px;
     line-height: 54px;
-    width: 260px;
+    width: 240px;
   }
 </style>
 
@@ -276,12 +305,6 @@ To get people to read the facts, or better, go deeper and actually digest your b
 you need to grab their attention.
 
 There's a lot to writing a good hook, so today I'll just share a quick example.
-
-Here's one from Storybook...
-
-When I was on a design system team, I used this tactic all the time to spark conversation and get people to join our office hours. Ask a question, it's one of the simplest forms of a hook.
-
-And if you have a feature to share, instead of speaking from your perspective about your API, speak in terms of the problem it solves.
 -->
 
 ---
@@ -319,7 +342,7 @@ There are two stages where difficulty is highest in adopting our work. Getting s
 
 ---
 layout: image
-image: chakra.png
+image: map.jpg
 ---
 
 <!--
@@ -330,7 +353,14 @@ Good documentation is a killer feature. When I evaluate technology, the docs are
 It can be as simple as a README too, but define the steps to get started with your solution
 
 or how to adopt what you're proposing
+-->
 
+---
+layout: image
+image: chakra.png
+---
+
+<!--
 Here's a common but effective pattern from Chakra UI, where you spell out what to install,
 
 then what code changes come next. along the way, they explain a few things as well.
@@ -368,7 +398,7 @@ layout: image
 image: package.jpg
 ---
 
-[Tanexample](https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-v5)
+[TanStack example](https://tanstack.com/query/latest/docs/framework/react/guides/migrating-to-v5)
 
 <style>
   a {
@@ -386,6 +416,9 @@ Here's an example of both I'd like to share...
 -->
 
 ---
+layout: image
+image: bump.jpg
+---
 
 # Be helpful
 
@@ -393,20 +426,70 @@ Here's an example of both I'd like to share...
 
 # Remove friction
 
+<style>
+  h1 {
+    background-color: #000;
+    font-size: 54px;
+    line-height: 54px;
+    width: 400px;
+  }
+</style>
+
 <!--
 Remember these three things to win developers and influence adoption
 
-be helpful at every opportunity.
+be helpful at every opportunity. be kind.
 
 earn attention, with hooks baited with value
 
-remove friction, making your path the easiest one. especially with onboarding if you want adoption, and make it stupid simple to keep up with things as they change
-
-i promise you the reach of your team's work will grow and so will your influence on technical direction at your company
+remove friction, making your path the easy one. especially with onboarding if you want adoption, and make it stupid simple to keep up with things as they change
 -->
 
 ---
 
+![](./newsletterqr.png)
+
+# buttondown.com/howtowindev
+
+<style>
+  img {
+
+    height: 400px
+  }
+</style>
+
+<!--
+I have so much more to share, so if you're curious to hear more, I'm starting a newsletter and you can signup here
+-->
+
+---
+layout: image
+image: north.png
+---
+
+[developer.north.com](https://developer.north.com)
+
+<style>
+  a {
+    /* background-color: #000; */
+    font-size: 40px;
+    line-height: 40px;
+    /* width: 800px; */
+    right: 50px;
+    top: 25px;
+    position: absolute;
+  }
+</style>
+
+<!--
+I want to quickly thank my team at North, who supported me to attend and speak here today.
+
+I work on the developer experience team there,
+where we help developers build great payment experiences with our APIs
+
+and one thing I love about my team is how helpful they are.
+we'll hop on a call and answer questions anytime
+-->
 
 ---
 layout: image
@@ -423,30 +506,21 @@ image: thank-you.jpg
 <br />
 <br />
 
-## <logos-x /> @willklein\_
+## <carbon-link /> willklein.co
 
 ## <logos-bluesky /> @willkle.in
 
-## <carbon-link /> howtowin.dev
-
-## <carbon-lightning /> toolspace.dev
+## <logos-x /> @willklein\_
 
 <style>
-  h1 {
+  h2 {
     /* background-color: #000; */
-    font-size: 64px;
-    line-height: 80px;
-    width: 300px;
+    /* font-size: 64px; */
+    line-height: 50px;
+    /* width: 300px; */
   }
 </style>
 
 <!--
-I want to quickly thank my team at North, who supported me to attend and speak here today.
-
-Our team supports our payment APIs and developer experience,
-
-and one thing I love about what we do is how much we care about being helpful.
-
-it's become exceedingly rare that you can ask for help and reach a real human easily,
-and that's something I love about how we operate.
+You can find me at willklein.co, with links to all my socials there. Thanks everyone!
 -->
