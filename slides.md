@@ -34,11 +34,7 @@ image: hello.jpg
 ---
 
 <!--
-Before we begin, please humor me
-
-when i greet you in a moment, please, everyone, say hello back
-
-Hello!
+Hello everyone!
 -->
 
 ---
@@ -109,7 +105,7 @@ how well you articulate and communicate can only get you so far
 
 the hardest thing of all is the noise of all our notifications, updates, and emails,
 
-to create a clear signal
+and for us to create a clear signal
 that others want to hear
 -->
 
@@ -145,6 +141,8 @@ image: point.jpg
 </style>
 
 <!--
+These are the themes of each lesson
+
 Build trust
 
 Deserve Attention
@@ -314,6 +312,10 @@ image: storybook-full.png
 
 <!--
 Here's one from Storybook...
+
+they speak to an obvious desire we all have, to cut our bundle size in half
+
+they don't say how just yet, but of course there's the call to action to learn more
 -->
 
 ---
